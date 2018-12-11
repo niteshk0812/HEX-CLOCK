@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>hex clock</title>
+        <link rel="stylesheet" type="text/css" href="index.css"></link>
+        <link rel="stylesheet" type="text/css" href="bootstrap.unity.css"></link>
+</head>
+<body>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand big-font" href="#">HEX CLOCK</a>
+        </div>
+      </div>
+    </nav>
+	<br>
+  	 <h1 class="text-primary stroked" style="text-align:center; text-decoration:underline;">Hex Clock</h1>
+
+        <div id="time">
+                <h1>
+                        <span id="hours"></span>
+                        <span id="minutes"></span>
+                        <span id="seconds"></span>
+                </h1>
+        </div>
+    <div style="text-align:center">
+	<br>
+	<h3 class="big-font"><span class="stroked"> background-color : </span> <span id="hex-color"></span></h3>
+      <br>
+      <br>
+      <a class="github-button" href="https://github.com/therealvasanth/hex-clock" data-size="large" data-show-count="true" aria-label="Star therealvasanth/lsdjfsdf on GitHub">Star</a>
+      <br>
+      <br>
+        <button id="hex-info" class="btn btn-primary">Click here to know about hex clock</button>
+	<br>
+    </div>
+        <script src="jquery.js"></script>
+        <script src="index.js"></script>
+    <footer class="footer-distributed">
+			<div class="footer-left">
+				<h4>
+          <a class="white-text" href="https://github.com/therealvasanth/hex-clock" target="_blank"> HEX-CLOCK </a>
+        </h4>
+        <h5>by</h5>
+        <h4>
+          <a class="white-text" href="https://github.com/therealvasanth/" target="_blank">therealvasanth</a>
+        </h4>
+	<script async defer src="https://buttons.github.io/buttons.js"></script>
+        <script type="text/javascript">
+        var d = new Date()
+        document.write("&copy; "+d.getFullYear());
+        </script>
+	<script>
+		$("#hex-info").click(function(){
+			alert("The hex clock simply takes the time, concatenates their value and sets the equivalent hex color value as the clock's background color\n\n Example:\n \n 07 : 57 : 35 = #075735\n 03 : 06 : 07 = #030607 \n 19 : 17 : 26 = #191726\n\n Each second the background color changes according to the current time. For 24 hours this clock displays 60 * 60 * 24 = 86400 different colors.");
+});
+	</script>
+		</footer>
+</body>
+</html>
+
