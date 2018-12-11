@@ -5,7 +5,3 @@ The hex clock simply takes the current time values ( hours, minutes & seconds ) 
 ## Whats special about this ?
 
 Each second the background color changes according to the current time. For 24 hours this clock changes 60 * 60 * 24 = 86400 different colors.
-
-## License
-
-This project is licensed under the MIT License 
